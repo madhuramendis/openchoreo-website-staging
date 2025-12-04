@@ -89,6 +89,9 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      { name: 'robots', content: 'noindex, nofollow' }
+    ],
     announcementBar: {
       id: 'release_v0_5_0',
       content:
